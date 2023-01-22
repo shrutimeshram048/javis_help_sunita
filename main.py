@@ -69,9 +69,6 @@ if "__main__" == __name__:
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
             speak(f"Sunita, the time is {strTime}")
-        elif 'open code' in query:
-            codePath = "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
-            os.startfile(codePath)
 
         elif 'time now' in query:
             query = query.replace("time now", "")
